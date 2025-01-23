@@ -1,7 +1,7 @@
 title: Kai's Robotics Portfolio
 description: A portfolio of robotics and automation projects.
 theme: jekyll-theme-minimal
-avatar: "images/github-pic.JPG" 
+avatar: "./images/github-pic.JPG" 
 baseurl: "" # Leave blank unless deploying to a subfolder
 url: "https://trungkhang111005.github.io" # Replace <your-username> with your GitHub username
 
