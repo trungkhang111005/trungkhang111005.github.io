@@ -4,7 +4,7 @@ Welcome to my GitHub portfolio! I am a passionate Robotics/Automation enthusiast
 
 
 ## Table of Contents
-- [Competition](#competition-1-bcit-engineering-competition-2024)
+- [BCIT Junior Design Engineering Competition](#competition-1-bcit-engineering-competition-2024)
 - [Project 1: Humanoid Robot Modeled and Trained in Simulation (In Progress)](#project-1-humanoid-robot-modeled-and-trained-in-simulation-in-progress)
 - [Project 2: Sticker Identification for Kid's Game](#project-2-sticker-identification-for-kids-game-in-nesters-market)
 - [Project 3: RC Car](#project-3-rc-car)
