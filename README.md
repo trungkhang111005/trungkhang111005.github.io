@@ -5,7 +5,7 @@
 - [Project 3: RC Car](#project-3-rc-car)
 - [Project 4: Software SPI on MSP430](#project-4-software-spi-on-msp430)
 - [Project 5: SCARA Drawing Robot](#project-5-scara-robot-drawing)
-- [Contact Information](#contact-information)<br><br><br>
+- [Contact Information](#contact-information)<br><br><br><br>
     
   
   
@@ -28,7 +28,7 @@
 
 [![Watch the Presentation](./images/thumbnail2.png)](https://youtu.be/TrNpwvOBCMM)
 
-**Repository Link:** [BCIT Engineering Competition Repository](https://github.com/trungkhang111005/BCIT-Engineering-Competition-2024.git)<br><br><br>
+**Repository Link:** [BCIT Engineering Competition Repository](https://github.com/trungkhang111005/BCIT-Engineering-Competition-2024.git)<br><br><br><br>
   
   
   
@@ -46,7 +46,7 @@
 - **Reinforcement Learning:** Training the robot to perform basic movements and tasks using reinforcement learning algorithms.
 - **Design Inspiration:** The robot’s design and capabilities are inspired by the Bruce robot from WESTWOOD Robotics.
 
-**Repository Link:** [Humanoid Robot Repository (In Progress)](https://github.com/trungkhang111005/Adam.git)<br><br><br>
+**Repository Link:** [Humanoid Robot Repository (In Progress)](https://github.com/trungkhang111005/Adam.git)<br><br><br><br>
   
   
   
@@ -64,7 +64,7 @@
 
 [![Watch me presenting the workflow of the project](./images/thumbnail4.jpg)](https://youtu.be/s-muMo-hYKM?si=bLqWILIWOQYDSj-r)
 
-**Repository Link:** [Sticker Identification System Repository](https://github.com/trungkhang111005/Amanda.git)<br><br><br>
+**Repository Link:** [Sticker Identification System Repository](https://github.com/trungkhang111005/Amanda.git)<br><br><br><br>
   
   
   
@@ -86,7 +86,7 @@
 
 [![Watch me talking about the RC car and a demo of it in action](./images/thumbnail.png)](https://youtu.be/J6uigz7IrvU)                       [![Watch the car drifting](./images/thumbnail3.png)](https://youtu.be/YaZgg8Mr1b0?feature=shared)
 
-**Repository Link:** [3D Printed RC Car Repository](https://github.com/trungkhang111005/psychic-engine.git)<br><br><br>
+**Repository Link:** [3D Printed RC Car Repository](https://github.com/trungkhang111005/psychic-engine.git)<br><br><br><br>
   
   
   
@@ -100,7 +100,7 @@
 - **Low-Level Communication Protocols**: Implemented an SPI receiver entirely in software, demonstrating mastery in communication protocols and timing-sensitive tasks.
 - **Embedded Systems Proficiency**: Designed the project to highlight practical skills in low-level embedded system programming, optimizing for synchronization and data handling.
   
-**Repository Link:** [Software SPI Repository](https://github.com/trungkhang111005/software-spi.git)<br><br><br>
+**Repository Link:** [Software SPI Repository](https://github.com/trungkhang111005/software-spi.git)<br><br><br><br>
   
   
   
@@ -117,7 +117,7 @@
 - **Robotic Motion Control**: Enabled precise control over SCARA robot joints, demonstrating expertise in robotic kinematics and movement planning.
 - **Application in Art and Automation**: Showcases practical skills in robot programming, with applications in automated art, assembly, and precision tasks.
 
-**Repository Link:** [SCARA Drawing Repository](https://github.com/trungkhang111005/scara-drawing.git)<br><br><br>
+**Repository Link:** [SCARA Drawing Repository](https://github.com/trungkhang111005/scara-drawing.git)<br><br><br><br>
   
 
     
