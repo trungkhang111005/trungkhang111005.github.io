@@ -6,9 +6,9 @@
 - [Project 4: Software SPI on MSP430](#project-4-software-spi-on-msp430)
 - [Project 5: SCARA Drawing Robot](#project-5-scara-robot-drawing)
 - [Contact Information](#contact-information)
+    
   
-
-
+  
 ## Competition 1: BCIT Engineering Competition 2024
 
 <div style="text-align: center;">
@@ -29,9 +29,9 @@
 [![Watch the Presentation](./images/thumbnail2.png)](https://youtu.be/TrNpwvOBCMM)
 
 **Repository Link:** [BCIT Engineering Competition Repository](https://github.com/trungkhang111005/BCIT-Engineering-Competition-2024.git)
-
-
-
+  
+  
+  
 ## Project 1: Humanoid Robot Modeled and Trained in Simulation (In Progress)
 
 <div style="text-align: center;">
@@ -47,9 +47,9 @@
 - **Design Inspiration:** The robot’s design and capabilities are inspired by the Bruce robot from WESTWOOD Robotics.
 
 **Repository Link:** [Humanoid Robot Repository (In Progress)](https://github.com/trungkhang111005/Adam.git)
-
-
-
+  
+  
+  
 ## Project 2: Sticker Identification for Kid's Game in Nesters Market
 <img src="images/Amanda1.jpg" alt="Image description" width="200" /> <img src="images/Amanda2.jpg" alt="Image description" width="300" />
 
@@ -65,9 +65,9 @@
 [![Watch me presenting the workflow of the project](./images/thumbnail4.jpg)](https://youtu.be/s-muMo-hYKM?si=bLqWILIWOQYDSj-r)
 
 **Repository Link:** [Sticker Identification System Repository](https://github.com/trungkhang111005/Amanda.git)
-
-
-
+  
+  
+  
 ## Project 3: RC Car
 
 <div style="text-align: center;">
@@ -87,9 +87,9 @@
 [![Watch me talking about the RC car and a demo of it in action](./images/thumbnail.png)](https://youtu.be/J6uigz7IrvU)                       [![Watch the car drifting](./images/thumbnail3.png)](https://youtu.be/YaZgg8Mr1b0?feature=shared)
 
 **Repository Link:** [3D Printed RC Car Repository](https://github.com/trungkhang111005/psychic-engine.git)
-
-
-
+  
+  
+  
 ## Project 4: Software SPI on MSP430
 **Description:** Developed a software-based SPI (Serial Peripheral Interface) receiver for the MSP430 microcontroller using assembly code. The project aimed to demonstrate low-level SPI communication without hardware support by leveraging GPIO manipulation and precise timing.
 
@@ -101,9 +101,9 @@
 - **Embedded Systems Proficiency**: Designed the project to highlight practical skills in low-level embedded system programming, optimizing for synchronization and data handling.
   
 **Repository Link:** [Software SPI Repository](https://github.com/trungkhang111005/software-spi.git)
-
-
-
+  
+  
+  
 ## Project 5: SCARA Robot Drawing 
 
 <img src="images/psycho-jenny-mapping.png" alt="Image description" width="400" />       <img src="images/psycho_jenny_drawing.png" alt="Image description" width="250" />
@@ -118,7 +118,8 @@
 - **Application in Art and Automation**: Showcases practical skills in robot programming, with applications in automated art, assembly, and precision tasks.
 
 **Repository Link:** [SCARA Drawing Repository](https://github.com/trungkhang111005/scara-drawing.git)
+  
 
-
+    
 ## Contact Information
 Feel free to connect with me on [LinkedIn](www.linkedin.com/in/trung-khang-nguyen-900b86203) or reach out via trungkhang1110@gmail.com. I’m always open to discussing robotics projects, collaboration opportunities, or answering any questions about my work.
