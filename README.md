@@ -1,8 +1,3 @@
-# Kai's Projects Portfolio
-
-Welcome to my GitHub portfolio! I am a passionate Robotics/Automation enthusiast with experience in automation equipments, 3D modeling, computer vision, embedded systems, and robotics simulation. Below, you'll find detailed information on my primary projects. Feel free to explore the code and reach out with any questions or feedback.
-
-
 ## Table of Contents
 - [BCIT Junior Design Engineering Competition](#competition-1-bcit-engineering-competition-2024)
 - [Project 1: Humanoid Robot Modeled and Trained in Simulation (In Progress)](#project-1-humanoid-robot-modeled-and-trained-in-simulation-in-progress)
