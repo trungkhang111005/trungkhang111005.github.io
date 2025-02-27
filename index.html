@@ -18,7 +18,10 @@
     <header>
         <ul id="menu" class="shadow">
             <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
@@ -35,7 +38,46 @@
         <div class="container">
             <h2 class="heading">About Me</h2>
             <p>
-                Passionate about robotics, embedded systems, and simulation, I enjoy designing and implementing mechatronic solutions. My portfolio showcases projects in robotics, control systems, and embedded software.
+                Passionate about robotics, automation, and embedded systems, I specialize in designing and implementing mechatronic solutions. My portfolio showcases expertise in control systems, robotic simulation, and real-world automation applications.
+            </p>
+        </div>
+    </div>
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="01/2025 - Present">
+                <h3>Automation Technician</h3>
+                <h4>Emilio Finatti Pizzeria | Port Coquitlam, BC</h4>
+                <p>
+                    Designed an automated pizza box signing robot with a team of three. Used ROS2 to coordinate sensors and actuators, increasing efficiency by 150% and boosting restaurant revenue by 6%.
+                </p>
+            </div>
+            <div data-date="08/2022 - 01/2025">
+                <h3>BCIT Student</h3>
+                <h4>Academic Projects | Burnaby, BC</h4>
+                <p>
+                    Developed multiple robotics and automation projects, including a bipedal robot simulation, an RC car, and an automated sticker identification system. Applied principles of control theory, embedded systems, and ROS2.
+                </p>
+            </div>
+            <div data-date="06/2022 - 08/2022">
+                <h3>Electrical Apprentice</h3>
+                <h4>Jastram Engineering Ltd. | North Vancouver, BC</h4>
+                <p>
+                    Assisted in wiring and assembling maritime Motor Starters. Diagnosed electrical faults in PCBs and ensured proper installation of control systems based on electrical schematics.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>British Columbia Institute of Technology</h3>
+            <span class="education-date">08/2022 - 05/2025</span>
+            <h4>Diploma in Mechatronics and Robotics</h4>
+            <p>
+                Focused on automation, control systems, and embedded programming. Active member of the Robotics Club, introducing members to ROS2 and Gazebo.
             </p>
         </div>
     </div>
@@ -43,61 +85,27 @@
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects & Competitions</h2>
         <div class="container">
-            
             <div class="project shadow-large">
                 <h3>BCIT Engineering Competition 2024</h3>
                 <img src="./images/gripper.jpg" width="250" alt="gripper">
-                <p>Designed a delta robot gripper for rescuing a person from a high-rise building under time constraints.</p>
+                <p>Designed a delta robot gripper for rescuing a person from a high-rise building under strict constraints.</p>
                 <a href="https://github.com/trungkhang111005/BCIT-Engineering-Competition-2024.git">View Repository</a>
             </div>
-            
-            <div class="project shadow-large">
-                <h3>Humanoid Robot Simulation (In Progress)</h3>
-                <img src="./images/bipedal-img3.png" width="300" alt="bipedal robot">
-                <p>Developing a humanoid robot inspired by Bruce from WESTWOOD Robotics using SolidWorks, ROS, and reinforcement learning.</p>
-                <a href="https://github.com/trungkhang111005/Adam.git">View Repository</a>
-            </div>
-            
-            <div class="project shadow-large">
-                <h3>Sticker Identification for Kid's Game</h3>
-                <img src="images/Amanda1.jpg" width="200"> <img src="images/Amanda2.jpg" width="300">
-                <p>Developed a computer vision system using OpenCV to detect stickers in a kid’s game at Nesters Market.</p>
-                <a href="https://github.com/trungkhang111005/Amanda.git">View Repository</a>
-            </div>
-            
-            <div class="project shadow-large">
-                <h3>RC Car</h3>
-                <img src="./images/RC-car.png" width="400" alt="RC car">
-                <p>3D-printed RC car modeled with SolidWorks and controlled via Arduino.</p>
-                <a href="https://github.com/trungkhang111005/psychic-engine.git">View Repository</a>
-            </div>
-            
-            <div class="project shadow-large">
-                <h3>Software SPI on MSP430</h3>
-                <p>Implemented a software-based SPI receiver on MSP430 using assembly language.</p>
-                <a href="https://github.com/trungkhang111005/software-spi.git">View Repository</a>
-            </div>
-            
-            <div class="project shadow-large">
-                <h3>SCARA Robot Drawing</h3>
-                <img src="images/psycho-jenny-mapping.png" width="400"> <img src="images/psycho_jenny_drawing.png" width="250">
-                <p>Developed a SCARA robot that utilizes inverse kinematics for automated drawing.</p>
-                <a href="https://github.com/trungkhang111005/scara-drawing.git">View Repository</a>
-            </div>
-            
-            <h3>Failed Projects</h3>
-            <div class="project shadow-large">
-                <h3>Autonomous Differential Drive Car</h3>
-                <img src="images/diff_drive_car.jpg" width="250"> <img src="images/diff_drive_car1.jpg" width="250">
-                <p>Developed a differential drive RC car but failed due to power supply instability.</p>
-            </div>
-            
-            <div class="project shadow-large">
-                <h3>DIY Drone</h3>
-                <img src="images/drone.jpg" width="250"> <img src="images/plane.jpg" width="250">
-                <p>Attempted to build a drone, but faced issues with soldering quality and weight distribution.</p>
-            </div>
         </div>
+    </div>
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>ABB Robot Programming</li>
+            <li>ROS 2 & Gazebo</li>
+            <li>PLC Programming (Allen Bradley)</li>
+            <li>Embedded Systems (ESP32, MSP430)</li>
+            <li>Path Planning & Motion Control</li>
+            <li>Computer Vision (OpenCV)</li>
+            <li>Machine Learning & Reinforcement Learning</li>
+            <li>Python, C, C++</li>
+        </ul>
     </div>
 
     <div id="contact">
