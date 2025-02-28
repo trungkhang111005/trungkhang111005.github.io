@@ -235,6 +235,22 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+    /* Add padding so the overlay doesn’t butt right up against the text */
+  padding: 20px;
+  border-radius: 5px;
+  /* Set up a relative positioning context for the pseudo-element */
+  position: relative;
+}
+#lead-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* adjust opacity as needed */
+  z-index: -1;
+  border-radius: 5px;
 }
 #lead-content h1,
 #lead-content h2 {
