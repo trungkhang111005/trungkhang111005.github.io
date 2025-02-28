@@ -242,7 +242,7 @@ footer {
 }
 /* Leave these lead fonts unchanged */
 #lead-content h1 {
-  color: #000000;
+  color: #00CCFF;
   font-weight: 900;
   font-size: 5em;
   text-transform: uppercase;
@@ -250,7 +250,7 @@ footer {
   line-height: 0.9em;
 }
 #lead-content h2 {
-  color: #000000;/*#a0cfee;*/
+  color: #00CCFF;
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px;
