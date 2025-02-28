@@ -242,7 +242,7 @@ footer {
 }
 /* Leave these lead fonts unchanged */
 #lead-content h1 {
-  color: #fff;
+  color: #000000;
   font-weight: 900;
   font-size: 5em;
   text-transform: uppercase;
