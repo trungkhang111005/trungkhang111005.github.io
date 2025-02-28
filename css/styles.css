@@ -8,11 +8,11 @@
 
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
-    Gulp and sent to the /css folder which is then loaded on the page.
+    Gulp and send to the /css folder which is then loaded on the page.
 */
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 23px; /* 20px × 1.15 */
 }
 body.active {
   overflow: hidden;
@@ -25,21 +25,21 @@ body.active {
   border: 1px solid #dcd9d9;
 }
 .no-js #experience-timeline > div h3 {
-  font-size: 1.5em;
+  font-size: 2.15625em; /* 1.875em × 1.15 */
   font-weight: 300;
   color: #374054;
   display: inline-block;
   margin: 0;
 }
 .no-js #experience-timeline > div h4 {
-  font-size: 1.2em;
+  font-size: 1.725em; /* 1.5em × 1.15 */
   font-weight: 300;
   color: #7e8890;
   margin: 0 0 15px 0;
 }
 .no-js #experience-timeline > div p {
   color: #74808a;
-  font-size: 0.9em;
+  font-size: 1.29375em; /* 1.125em × 1.15 */
   margin: 0;
 }
 .no-js #experience-timeline:before,
@@ -106,7 +106,7 @@ header.sticky {
   right: 15px;
   top: 10px;
   color: #3498db;
-  font-size: 1.5em;
+  font-size: 2.15625em; /* 1.875em × 1.15 */
   z-index: 20;
   padding: 0 7px;
   border-radius: 4px;
@@ -117,14 +117,14 @@ header.sticky {
   text-align: right;
   width: 100%;
   background: #fff;
-  font-size: 1.5em;
+  font-size: 2.15625em; /* 1.875em × 1.15 */
   padding-right: 15px;
   padding-top: 10px;
   cursor: pointer;
   color: #3498db;
 }
 #mobile-menu-close span {
-  font-size: 0.5em;
+  font-size: 0.71875em; /* 0.625em × 1.15 */
   text-transform: uppercase;
 }
 #mobile-menu-close i {
@@ -165,7 +165,7 @@ footer {
 }
 .social li {
   display: inline-block;
-  font-size: 1.25em;
+  font-size: 1.796875em; /* 1.5625em × 1.15 */
   list-style: none;
 }
 .social a {
@@ -200,7 +200,7 @@ footer {
 .heading {
   position: relative;
   display: inline-block;
-  font-size: 2em;
+  font-size: 2.875em; /* 2.5em × 1.15 */
   font-weight: 300;
   margin: 0 0 30px 0;
 }
@@ -243,7 +243,7 @@ footer {
 #lead-content h1 {
   color: #fff;
   font-weight: 900;
-  font-size: 5em;
+  font-size: 5em; /* Unchanged for “Trung Khang Nguyen” */
   text-transform: uppercase;
   letter-spacing: 0.05em;
   line-height: 0.9em;
@@ -251,7 +251,7 @@ footer {
 #lead-content h2 {
   color: #a0cfee;
   font-weight: 500;
-  font-size: 2.25em;
+  font-size: 2.8125em; /* Unchanged for “Mechatronics Engineer” */
   margin-bottom: 15px;
 }
 #lead-overlay {
@@ -350,21 +350,21 @@ footer {
   text-align: left;
 }
 .vtimeline-content h3 {
-  font-size: 1.5em;
+  font-size: 2.15625em; /* 1.875em × 1.15 */
   font-weight: 300;
   color: #374054;
   display: inline-block;
   margin: 0;
 }
 .vtimeline-content h4 {
-  font-size: 1.2em;
+  font-size: 1.725em; /* 1.5em × 1.15 */
   font-weight: 300;
   color: #7e8890;
   margin: 0 0 15px 0;
 }
 .vtimeline-content p {
   color: #74808a;
-  font-size: 0.9em;
+  font-size: 1.29375em; /* 1.125em × 1.15 */
   margin: 0;
 }
 .vtimeline-point {
@@ -386,7 +386,7 @@ footer {
 }
 .vtimeline-icon i {
   display: block;
-  font-size: 2em;
+  font-size: 2.875em; /* 2.5em × 1.15 */
   margin-top: 10px;
 }
 .vtimeline-date {
@@ -434,7 +434,7 @@ footer {
 .education-block ul {
   margin: 0;
   color: #74808a;
-  font-size: 0.9em;
+  font-size: 1.29375em; /* 1.125em × 1.15 */
 }
 .education-block ul {
   padding: 0 0 0 15px;
@@ -467,7 +467,7 @@ footer {
   padding: 15px;
 }
 .project-info h3 {
-  font-size: 1.5em;
+  font-size: 2.15625em; /* 1.875em × 1.15 */
   font-weight: 300;
   color: #374054;
   margin: 0 0 15px 0;
@@ -475,7 +475,7 @@ footer {
 .project-info p {
   color: #74808a;
   margin: 0 0 15px 0;
-  font-size: 0.9em;
+  font-size: 1.29375em; /* 1.125em × 1.15 */
 }
 .no-image .project-info {
   position: relative;
@@ -508,7 +508,7 @@ footer {
   background: #e4e4ea;
   list-style: none;
   cursor: default;
-  font-size: 1.2em;
+  font-size: 1.725em; /* 1.5em × 1.15 */
 }
 #contact {
   padding: 50px 15px;
@@ -611,7 +611,7 @@ footer {
 .optional-section-block ul {
   margin: 0 0 15px 0;
   color: #74808a;
-  font-size: 0.9em;
+  font-size: 1.29375em; /* 1.125em × 1.15 */
 }
 .optional-section-block ul {
   padding: 0 0 0 15px;
@@ -649,12 +649,9 @@ footer {
     left: auto;
     top: auto;
   }
-  #lead-content h1 {
-    font-size: 3em;
-  }
-  #lead-content h2 {
-    font-size: 1.75em;
-  }
+  /* Leave these lead fonts unchanged */
+  #lead-content h1 { font-size: 3em; }
+  #lead-content h2 { font-size: 1.75em; }
   #about {
     text-align: center;
   }
@@ -686,12 +683,9 @@ footer {
     display: block;
     margin-bottom: 10px;
   }
-  #lead-content h1 {
-    font-size: 2em;
-  }
-  #lead-content h2 {
-    font-size: 1.3em;
-  }
+  /* Leave these lead fonts unchanged */
+  #lead-content h1 { font-size: 2.5em; }
+  #lead-content h2 { font-size: 1.625em; }
   #lead-content a {
     padding: 10px 20px;
   }
@@ -720,14 +714,11 @@ footer {
   }
 }
 @media only screen and (max-width: 480px) {
-  #lead-content h1 {
-    font-size: 1.5em;
-  }
-  #lead-content h2 {
-    font-size: 1em;
-  }
+  /* Leave these lead fonts unchanged */
+  #lead-content h1 { font-size: 1.875em; }
+  #lead-content h2 { font-size: 1.25em; }
   #lead-content a {
-    font-size: 0.9em;
+    font-size: 1.29375em; /* 1.125em × 1.15 */
     padding: 5px 10px;
   }
 }
