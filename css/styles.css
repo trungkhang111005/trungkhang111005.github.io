@@ -459,11 +459,11 @@ footer {
 #projects {
   padding: 50px 15px;
   border-bottom: 1px solid #dcd9d9;
+  text-align: center;
 }
 #projects h2 {
   color: #374054;
   margin-bottom: 50px;
-  text-align: center;
 }
 .project {
   position: relative;
@@ -482,6 +482,7 @@ footer {
   transform: translateY(-50%);
   margin-left: 300px;
   padding: 15px;
+  text-align: left;
 }
 .project-info h3 {
   font-size: 1.65em; /* 1.5em × 1.1 */
