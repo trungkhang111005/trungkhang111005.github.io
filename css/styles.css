@@ -746,6 +746,6 @@ footer {
   }
 }
 .project-info img[src*="../images/PLC_thumbnail.JPG"] {
-  width: 550px;  /* New size */
+  width: 950px;  /* New size */
   height: auto;  /* Keeps aspect ratio */
 }
