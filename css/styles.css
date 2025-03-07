@@ -469,7 +469,7 @@ footer {
 .project {
   position: relative;
   max-width: 900px;
-  margin: 0 auto 30px auto;
+  margin: 0 30px 30px auto;
   overflow: hidden;
   background: #fff;
   border-radius: 4px;
