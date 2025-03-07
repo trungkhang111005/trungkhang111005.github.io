@@ -490,6 +490,7 @@ footer {
   font-weight: 300;
   color: #374054;
   margin: 0 0 15px 0;
+padding-left: 20px; /* Ensures proper indentation */
 }
 .project-info ul {
   text-align: left;
@@ -499,6 +500,7 @@ footer {
   color: #74808a;
   margin: 0 0 15px 0;
   font-size: 0.99em; /* 0.9em × 1.1 */
+    padding-left: 20px; /* Ensures proper indentation */
 }
 .no-image .project-info {
   position: relative;
