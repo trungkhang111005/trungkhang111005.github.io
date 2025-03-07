@@ -490,6 +490,10 @@ footer {
   color: #374054;
   margin: 0 0 15px 0;
 }
+.project-info ul {
+  text-align: left;
+  padding-left: 20px; /* Ensures proper indentation */
+}
 .project-info p {
   color: #74808a;
   margin: 0 0 15px 0;
