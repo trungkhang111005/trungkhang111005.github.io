@@ -459,12 +459,12 @@ footer {
 #projects {
   padding: 50px 15px;
   border-bottom: 1px solid #dcd9d9;
-
+ text-align: center;
 }
 #projects h2 {
   color: #374054;
   margin-bottom: 50px;
-    text-align: center !important;
+
 }
 .project {
   position: relative;
@@ -473,7 +473,7 @@ footer {
   overflow: hidden;
   background: #fff;
   border-radius: 4px;
-    text-align: left;
+    text-align: left !important;
 }
 .project-image {
   float: left;
@@ -745,7 +745,4 @@ footer {
     padding: 5px 10px;
   }
 }
-.project-info img[src*="../images/PLC_thumbnail.JPG"] {
-  width: 950px;  /* New size */
-  height: auto;  /* Keeps aspect ratio */
-}
+
