@@ -745,7 +745,7 @@ footer {
     padding: 5px 10px;
   }
 }
-.project-info img[src*="gripper.jpg"] {
+.project-info img[src*="../images/PLC_thumbnail.JPG"] {
   width: 550px;  /* New size */
   height: auto;  /* Keeps aspect ratio */
 }
