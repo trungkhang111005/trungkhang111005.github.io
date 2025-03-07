@@ -464,7 +464,7 @@ footer {
 #projects h2 {
   color: #374054;
   margin-bottom: 50px;
-    text-align: center;
+    text-align: center !important;
 }
 .project {
   position: relative;
