@@ -223,7 +223,7 @@ footer {
   height: 100vh;
   min-height: 500px;
   max-height: 1080px;
-  background: url(../images/lead-bg.JPG);
+  background: url(../images/lead-bg.JPG) center center no-repeat;
   background-size: cover;
   padding: 15px;
   overflow: hidden;
