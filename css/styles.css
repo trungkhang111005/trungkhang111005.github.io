@@ -218,27 +218,15 @@ footer {
 .background-alt {
   background: #f2f2f5;
 }
-@media only screen and (max-width: 992px) {
-  header {
-    position: fixed;
-    display: block; /* Ensure header is always visible on mobile */
-    z-index: 999;
-    bottom: 0;
-    height: 100%;
-  }
-  /* Hide the menu list by default */
+@media only screen and (max-width: 768px) {
+  /* Instead of hiding the entire header, only hide the menu if needed */
   #menu {
     display: none;
   }
-  /* When active, show the menu list */
-  header.active #menu {
-    display: block;
-  }
-  /* Toggle buttons: hide the close button when menu is not active, hide the open button when active */
-  header:not(.active) #mobile-menu-close {
+  body:not(.active) #mobile-menu-close {
     display: none;
   }
-  header.active #mobile-menu-open {
+  body.active #mobile-menu-open {
     display: none;
   }
 }
