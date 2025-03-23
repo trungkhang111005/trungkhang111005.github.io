@@ -218,18 +218,36 @@ footer {
 .background-alt {
   background: #f2f2f5;
 }
-@media only screen and (max-width: 768px) {
-  /* Instead of hiding the entire header, only hide the menu if needed */
-  #menu {
-    display: none;
-  }
+@media only screen and (max-width: 992px) {
+  /* When menu is not active, hide the close (exit) button */
   body:not(.active) #mobile-menu-close {
     display: none;
   }
+  /* When menu is active, hide the hamburger */
   body.active #mobile-menu-open {
     display: none;
   }
+  
+  /* Hide menu list by default, and show it when active */
+  #menu {
+    display: none;
+  }
+  body.active #menu {
+    display: block;
+  }
+  #mobile-menu-open,
+#mobile-menu-close {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  font-size: 1.65em;
+  background: #fff;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 1000;
 }
+}
+
 
 
 
