@@ -218,6 +218,17 @@ footer {
 .background-alt {
   background: #f2f2f5;
 }
+@media only screen and (max-width: 768px) {
+  /* When menu is NOT active, hide the close button */
+  header:not(.active) #mobile-menu-close {
+    display: none;
+  }
+  /* When menu IS active, hide the hamburger */
+  header.active #mobile-menu-open {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   #lead {
     /* Retain the background image settings from the default */
