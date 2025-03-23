@@ -230,13 +230,11 @@ footer {
     background-size: cover;
   }
 
-  #lead-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 0; /* remove the extra top padding */
+#lead-content {
+    position: relative;
+    margin: 0 auto;
+    text-align: center; /* Ensure the content remains centered */
+    padding-top: 30px;  /* Add padding above the heading */
   }
   #lead-content h1 {
     font-size: 3em;
@@ -258,10 +256,12 @@ footer {
   overflow: hidden;
 }
 #lead-content {
-  position: relative;
-  margin: 0 auto;
-  text-align: center; /* Ensure the content remains centered */
-  padding-top: 30px;  /* Add padding above the heading */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0; /* remove the extra top padding */
 }
 #lead-content h1 {
   font-size: 3em;
