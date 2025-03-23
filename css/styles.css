@@ -229,7 +229,18 @@ footer {
     background: url(../images/lead-bg.JPG) center center no-repeat;
     background-size: cover;
   }
-  #lead-content {
+#lead {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  max-height: 1080px;
+  background: url(../images/lead-bg.JPG) center center no-repeat;
+  background-size: cover;
+  padding: 15px;
+  overflow: hidden;
+}
+
+#lead-content {
     position: relative;
     margin: 0 auto;
     text-align: center; /* Ensure the content remains centered */
@@ -243,7 +254,6 @@ footer {
     font-size: 1.75em;
   }
 }
-
 
 #lead-content::before {
   content: "";
