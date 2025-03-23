@@ -229,16 +229,6 @@ footer {
     background: url(../images/lead-bg.JPG) center center no-repeat;
     background-size: cover;
   }
-#lead {
-  position: relative;
-  height: 100vh;
-  min-height: 500px;
-  max-height: 1080px;
-  background: url(../images/lead-bg.JPG) center center no-repeat;
-  background-size: cover;
-  padding: 15px;
-  overflow: hidden;
-}
 
 #lead-content {
     position: relative;
@@ -255,6 +245,29 @@ footer {
   }
 }
 
+#lead {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  max-height: 1080px;
+  background: url(../images/lead-bg.JPG) center center no-repeat;
+  background-size: cover;
+  padding: 15px;
+  overflow: hidden;
+}
+#lead-content {
+  position: relative;
+  margin: 0 auto;
+  text-align: center; /* Ensure the content remains centered */
+  padding-top: 30px;  /* Add padding above the heading */
+}
+#lead-content h1 {
+  font-size: 3em;
+  margin-top: 0; /* Remove any default margin if present */
+}
+#lead-content h2 {
+  font-size: 1.75em;
+}
 #lead-content::before {
   content: "";
   position: absolute;
