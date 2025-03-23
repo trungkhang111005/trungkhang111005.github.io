@@ -218,16 +218,15 @@ footer {
 .background-alt {
   background: #f2f2f5;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   header {
     position: fixed;
-    display: block;  /* Always visible */
+    display: block; /* Ensure header is always visible on mobile */
     z-index: 999;
-    animation: none;
     bottom: 0;
     height: 100%;
   }
-  /* Optionally hide the menu list by default */
+  /* Hide the menu list by default */
   #menu {
     display: none;
   }
@@ -235,7 +234,6 @@ footer {
   header.active #menu {
     display: block;
   }
-  
   /* Toggle buttons: hide the close button when menu is not active, hide the open button when active */
   header:not(.active) #mobile-menu-close {
     display: none;
@@ -244,6 +242,7 @@ footer {
     display: none;
   }
 }
+
 
 
 @media only screen and (max-width: 992px) {
