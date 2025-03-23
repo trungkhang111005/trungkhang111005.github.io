@@ -234,7 +234,7 @@ footer {
     position: relative;
     margin: 0 auto;
     text-align: center; /* Ensure the content remains centered */
-    padding-top: 30px;  /* Add padding above the heading */
+    padding-top: 60px;  /* Add padding above the heading */
   }
   #lead-content h1 {
     font-size: 3em;
@@ -257,7 +257,7 @@ footer {
   overflow: hidden;
 }
 #lead-content {
-  position: absolute;
+  position: relative;
   z-index: 10;
   top: 50%;
   left: 50%;
@@ -267,7 +267,6 @@ footer {
   padding: 20px;
   border-radius: 5px;
   /* Set up a relative positioning context for the pseudo-element */
-  position: relative;
 }
 #lead-content h1 {
   font-size: 3em;
