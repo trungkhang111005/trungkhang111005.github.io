@@ -218,29 +218,25 @@ footer {
 .background-alt {
   background: #f2f2f5;
 }
-#lead {
-  position: relative;
-  height: 100vh;
-  min-height: 500px;
-  max-height: 1080px;
-  background: url(../images/lead-bg.JPG) center center no-repeat;
-  background-size: cover;
-  padding: 15px;
-  overflow: hidden;
+@media only screen and (max-width: 992px) {
+  #lead {
+    /* Instead of auto, give it a height relative to viewport */
+    height: 50vh;    /* Adjust as needed */
+    min-height: 300px;
+    max-height: none;
+    padding: 15px;
+  }
+  #lead-content {
+    position: relative;
+    transform: none;
+    left: auto;
+    top: auto;
+  }
+  /* Optionally adjust font sizes as needed */
+  #lead-content h1 { font-size: 3em; }
+  #lead-content h2 { font-size: 1.75em; }
 }
-#lead-content {
-  position: absolute;
-  z-index: 10;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-    /* Add padding so the overlay doesn’t butt right up against the text */
-  padding: 20px;
-  border-radius: 5px;
-  /* Set up a relative positioning context for the pseudo-element */
-  position: relative;
-}
+
 #lead-content::before {
   content: "";
   position: absolute;
