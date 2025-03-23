@@ -259,7 +259,7 @@ footer {
   position: relative;
   margin: 0 auto;
   text-align: center; /* Ensure the content remains centered */
-  padding-top: 30px;  /* Add padding above the heading */
+  padding-top: 100px;  /* Add padding above the heading */
 }
 #lead-content h1 {
   font-size: 3em;
