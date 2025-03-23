@@ -218,16 +218,33 @@ footer {
 .background-alt {
   background: #f2f2f5;
 }
-@media only screen and (max-width: 768px) {
-  /* When menu is NOT active, hide the close button */
+@media only screen and (max-width: 992px) {
+  header {
+    position: fixed;
+    display: block;  /* Always visible */
+    z-index: 999;
+    animation: none;
+    bottom: 0;
+    height: 100%;
+  }
+  /* Optionally hide the menu list by default */
+  #menu {
+    display: none;
+  }
+  /* When active, show the menu list */
+  header.active #menu {
+    display: block;
+  }
+  
+  /* Toggle buttons: hide the close button when menu is not active, hide the open button when active */
   header:not(.active) #mobile-menu-close {
     display: none;
   }
-  /* When menu IS active, hide the hamburger */
   header.active #mobile-menu-open {
     display: none;
   }
 }
+
 
 @media only screen and (max-width: 992px) {
   #lead {
