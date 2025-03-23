@@ -245,6 +245,7 @@ footer {
   }
 }
 
+@media only screen and (min-width: 993px) {
 #lead {
   position: relative;
   height: 100vh;
@@ -269,6 +270,7 @@ footer {
 }
 #lead-content h2 {
   font-size: 1.75em;
+}
 }
 #lead-content::before {
   content: "";
