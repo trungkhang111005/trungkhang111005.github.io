@@ -220,22 +220,30 @@ footer {
 }
 @media only screen and (max-width: 992px) {
   #lead {
-    /* Instead of auto, give it a height relative to viewport */
+    /* Retain the background image settings from the default */
     height: 50vh;    /* Adjust as needed */
     min-height: 300px;
     max-height: none;
     padding: 15px;
+    /* The background is still applied from default; you could also restate it here if desired */
+    background: url(../images/lead-bg.JPG) center center no-repeat;
+    background-size: cover;
   }
   #lead-content {
     position: relative;
-    transform: none;
-    left: auto;
-    top: auto;
+    margin: 0 auto;
+    text-align: center; /* Ensure the content remains centered */
+    padding-top: 30px;  /* Add padding above the heading */
   }
-  /* Optionally adjust font sizes as needed */
-  #lead-content h1 { font-size: 3em; }
-  #lead-content h2 { font-size: 1.75em; }
+  #lead-content h1 {
+    font-size: 3em;
+    margin-top: 0; /* Remove any default margin if present */
+  }
+  #lead-content h2 {
+    font-size: 1.75em;
+  }
 }
+
 
 #lead-content::before {
   content: "";
